@@ -1,0 +1,73 @@
+digraph iso27001_analysis {
+  rankdir=TB;
+  node [shape=box, style=rounded];
+
+  // Инициация
+  start [label="Начало\nИнициация" shape=ellipse];
+
+  identify [label="Идентификация\nдокумента"];
+  risk_assessment [label="Оценка рисков"];
+
+  start -> identify;
+  start -> risk_assessment;
+
+  // Изучение документа
+  subgraph cluster_study {
+    label="Изучение документа";
+    color=lightgrey;
+
+    understand_requirements [label="Понимание требований\nИСО/МЭК 27001:2022"];
+    document_analysis [label="Анализ структуры документа"];
+
+    identify -> understand_requirements;
+    understand_requirements -> document_analysis;
+  }
+
+  // Оценка соответствия
+  subgraph cluster_compliance {
+    label="Оценка соответствия";
+    color=lightgrey;
+
+    assess_processes [label="Оценка существующих процессов"];
+    identify_gaps [label="Определение пробелов в реализации"];
+
+    document_analysis -> assess_processes;
+    assess_processes -> identify_gaps;
+  }
+
+  // Решения и планы
+  subgraph cluster_solutions {
+    label="Решения и планы";
+    color=lightgrey;
+
+    develop_plan [label="Разработка плана мероприятий"];
+    coordinate_plan [label="Согласование плана с ответственными"];
+
+    identify_gaps -> develop_plan;
+    develop_plan -> coordinate_plan;
+  }
+
+  // Подготовка отчета и завершение
+  subgraph cluster_report {
+    label="Подготовка отчета и завершение";
+    color=lightgrey;
+
+    prepare_report [label="Подготовка отчета"];
+    finish [label="Завершение"];
+
+    coordinate_plan -> prepare_report;
+    prepare_report -> finish;
+  }
+
+  // Стиль узлов
+  node [shape=box, style=rounded];
+
+  // Завершение
+  finish [label="Завершение" shape=ellipse];
+
+  // Связи завершения
+  finish -> start [style=dashed];
+
+  // Стиль ребер
+  edge [dir=forward];
+}

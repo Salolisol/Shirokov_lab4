@@ -1,0 +1,162 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="371pt" height="785pt" viewBox="0.00 0.00 371.00 785.23">
+<g id="graph0" class="graph" transform="translate(-2.0602386006231654,914.9307042041943) scale(1.0000000000000002)" data-name="iso27001_analysis">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-781.23 367,-781.23 367,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="cluster_study">
+
+<polygon fill="none" stroke="lightgrey" points="8,-478.4 8,-710.4 216,-710.4 216,-478.4 8,-478.4" style=""/>
+<text text-anchor="middle" x="112" y="-693.8" font-family="Times,serif" font-size="14.00" style="">Изучение документа</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_compliance">
+
+<polygon fill="none" stroke="lightgrey" points="23,-321.6 23,-470.4 275,-470.4 275,-321.6 23,-321.6" style=""/>
+<text text-anchor="middle" x="149" y="-453.8" font-family="Times,serif" font-size="14.00" style="">Оценка соответствия</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_solutions">
+
+<polygon fill="none" stroke="lightgrey" points="41,-164.8 41,-313.6 307,-313.6 307,-164.8 41,-164.8" style=""/>
+<text text-anchor="middle" x="174" y="-297" font-family="Times,serif" font-size="14.00" style="">Решения и планы</text>
+</g>
+<g id="clust4" class="cluster" data-name="cluster_report">
+
+<polygon fill="none" stroke="lightgrey" points="140,-8 140,-156.8 355,-156.8 355,-8 140,-8" style=""/>
+<text text-anchor="middle" x="247.5" y="-140.2" font-family="Times,serif" font-size="14.00" style="">Подготовка отчета и завершение</text>
+</g>
+<!-- start -->
+<g id="node1" class="node" pointer-events="visible" data-name="start">
+
+<ellipse fill="none" stroke="black" cx="276" cy="-747.82" rx="55.72" ry="29.33" style=""/>
+<text text-anchor="middle" x="276" y="-752.02" font-family="Times,serif" font-size="14.00" style="">Начало</text>
+<text text-anchor="middle" x="276" y="-735.22" font-family="Times,serif" font-size="14.00" style="">Инициация</text>
+</g>
+<!-- identify -->
+<g id="node2" class="node" pointer-events="visible" data-name="identify">
+
+<path fill="none" stroke="black" d="M183.5,-677.4C183.5,-677.4 100.5,-677.4 100.5,-677.4 94.5,-677.4 88.5,-671.4 88.5,-665.4 88.5,-665.4 88.5,-648.2 88.5,-648.2 88.5,-642.2 94.5,-636.2 100.5,-636.2 100.5,-636.2 183.5,-636.2 183.5,-636.2 189.5,-636.2 195.5,-642.2 195.5,-648.2 195.5,-648.2 195.5,-665.4 195.5,-665.4 195.5,-671.4 189.5,-677.4 183.5,-677.4" style=""/>
+<text text-anchor="middle" x="142" y="-661" font-family="Times,serif" font-size="14.00" style="">Идентификация</text>
+<text text-anchor="middle" x="142" y="-644.2" font-family="Times,serif" font-size="14.00" style="">документа</text>
+</g>
+<!-- start&#45;&gt;identify -->
+<g id="edge1" class="edge" data-name="start-&gt;identify">
+
+<path fill="none" stroke="black" d="M239.23,-725.56C231.17,-720.71 222.73,-715.48 215,-710.4 202.64,-702.28 189.43,-692.97 177.7,-684.46" style=""/>
+<polygon fill="black" stroke="black" points="180.01,-681.82 169.88,-678.74 175.88,-687.47 180.01,-681.82" style=""/>
+</g>
+<!-- risk_assessment -->
+<g id="node3" class="node" pointer-events="visible" data-name="risk_assessment">
+
+<path fill="none" stroke="black" d="M315.5,-674.8C315.5,-674.8 236.5,-674.8 236.5,-674.8 230.5,-674.8 224.5,-668.8 224.5,-662.8 224.5,-662.8 224.5,-650.8 224.5,-650.8 224.5,-644.8 230.5,-638.8 236.5,-638.8 236.5,-638.8 315.5,-638.8 315.5,-638.8 321.5,-638.8 327.5,-644.8 327.5,-650.8 327.5,-650.8 327.5,-662.8 327.5,-662.8 327.5,-668.8 321.5,-674.8 315.5,-674.8" style=""/>
+<text text-anchor="middle" x="276" y="-652.6" font-family="Times,serif" font-size="14.00" style="">Оценка рисков</text>
+</g>
+<!-- start&#45;&gt;risk_assessment -->
+<g id="edge2" class="edge" data-name="start-&gt;risk_assessment">
+
+<path fill="none" stroke="black" d="M276,-718.16C276,-708.01 276,-696.58 276,-686.43" style=""/>
+<polygon fill="black" stroke="black" points="279.5,-686.76 276,-676.76 272.5,-686.76 279.5,-686.76" style=""/>
+</g>
+<!-- understand_requirements -->
+<g id="node4" class="node" pointer-events="visible" data-name="understand_requirements">
+
+<path fill="none" stroke="black" d="M186,-599.8C186,-599.8 58,-599.8 58,-599.8 52,-599.8 46,-593.8 46,-587.8 46,-587.8 46,-570.6 46,-570.6 46,-564.6 52,-558.6 58,-558.6 58,-558.6 186,-558.6 186,-558.6 192,-558.6 198,-564.6 198,-570.6 198,-570.6 198,-587.8 198,-587.8 198,-593.8 192,-599.8 186,-599.8" style=""/>
+<text text-anchor="middle" x="122" y="-583.4" font-family="Times,serif" font-size="14.00" style="">Понимание требований</text>
+<text text-anchor="middle" x="122" y="-566.6" font-family="Times,serif" font-size="14.00" style="">ИСО/МЭК 27001:2022</text>
+</g>
+<!-- identify&#45;&gt;understand_requirements -->
+<g id="edge3" class="edge" data-name="identify-&gt;understand_requirements">
+
+<path fill="none" stroke="black" d="M136.75,-635.94C134.74,-628.36 132.4,-619.53 130.19,-611.16" style=""/>
+<polygon fill="black" stroke="black" points="133.62,-610.43 127.68,-601.66 126.85,-612.22 133.62,-610.43" style=""/>
+</g>
+<!-- document_analysis -->
+<g id="node5" class="node" pointer-events="visible" data-name="document_analysis">
+
+<path fill="none" stroke="black" d="M195.5,-522.4C195.5,-522.4 28.5,-522.4 28.5,-522.4 22.5,-522.4 16.5,-516.4 16.5,-510.4 16.5,-510.4 16.5,-498.4 16.5,-498.4 16.5,-492.4 22.5,-486.4 28.5,-486.4 28.5,-486.4 195.5,-486.4 195.5,-486.4 201.5,-486.4 207.5,-492.4 207.5,-498.4 207.5,-498.4 207.5,-510.4 207.5,-510.4 207.5,-516.4 201.5,-522.4 195.5,-522.4" style=""/>
+<text text-anchor="middle" x="112" y="-500.2" font-family="Times,serif" font-size="14.00" style="">Анализ структуры документа</text>
+</g>
+<!-- understand_requirements&#45;&gt;document_analysis -->
+<g id="edge4" class="edge" data-name="understand_requirements-&gt;document_analysis">
+
+<path fill="none" stroke="black" d="M119.27,-558.31C118.24,-550.84 117.05,-542.2 115.94,-534.09" style=""/>
+<polygon fill="black" stroke="black" points="119.42,-533.72 114.59,-524.29 112.49,-534.67 119.42,-533.72" style=""/>
+</g>
+<!-- assess_processes -->
+<g id="node6" class="node" pointer-events="visible" data-name="assess_processes">
+
+<path fill="none" stroke="black" d="M237,-437.6C237,-437.6 49,-437.6 49,-437.6 43,-437.6 37,-431.6 37,-425.6 37,-425.6 37,-413.6 37,-413.6 37,-407.6 43,-401.6 49,-401.6 49,-401.6 237,-401.6 237,-401.6 243,-401.6 249,-407.6 249,-413.6 249,-413.6 249,-425.6 249,-425.6 249,-431.6 243,-437.6 237,-437.6" style=""/>
+<text text-anchor="middle" x="143" y="-415.4" font-family="Times,serif" font-size="14.00" style="">Оценка существующих процессов</text>
+</g>
+<!-- document_analysis&#45;&gt;assess_processes -->
+<g id="edge5" class="edge" data-name="document_analysis-&gt;assess_processes">
+
+<path fill="none" stroke="black" d="M118.42,-486.24C122.47,-475.44 127.79,-461.23 132.45,-448.79" style=""/>
+<polygon fill="black" stroke="black" points="135.72,-450.03 135.95,-439.44 129.16,-447.57 135.72,-450.03" style=""/>
+</g>
+<!-- identify_gaps -->
+<g id="node7" class="node" pointer-events="visible" data-name="identify_gaps">
+
+<path fill="none" stroke="black" d="M255,-365.6C255,-365.6 43,-365.6 43,-365.6 37,-365.6 31,-359.6 31,-353.6 31,-353.6 31,-341.6 31,-341.6 31,-335.6 37,-329.6 43,-329.6 43,-329.6 255,-329.6 255,-329.6 261,-329.6 267,-335.6 267,-341.6 267,-341.6 267,-353.6 267,-353.6 267,-359.6 261,-365.6 255,-365.6" style=""/>
+<text text-anchor="middle" x="149" y="-343.4" font-family="Times,serif" font-size="14.00" style="">Определение пробелов в реализации</text>
+</g>
+<!-- assess_processes&#45;&gt;identify_gaps -->
+<g id="edge6" class="edge" data-name="assess_processes-&gt;identify_gaps">
+
+<path fill="none" stroke="black" d="M144.48,-401.3C145.11,-394.01 145.85,-385.33 146.55,-377.14" style=""/>
+<polygon fill="black" stroke="black" points="150.04,-377.47 147.4,-367.21 143.06,-376.88 150.04,-377.47" style=""/>
+</g>
+<!-- develop_plan -->
+<g id="node8" class="node" pointer-events="visible" data-name="develop_plan">
+
+<path fill="none" stroke="black" d="M253.5,-280.8C253.5,-280.8 72.5,-280.8 72.5,-280.8 66.5,-280.8 60.5,-274.8 60.5,-268.8 60.5,-268.8 60.5,-256.8 60.5,-256.8 60.5,-250.8 66.5,-244.8 72.5,-244.8 72.5,-244.8 253.5,-244.8 253.5,-244.8 259.5,-244.8 265.5,-250.8 265.5,-256.8 265.5,-256.8 265.5,-268.8 265.5,-268.8 265.5,-274.8 259.5,-280.8 253.5,-280.8" style=""/>
+<text text-anchor="middle" x="163" y="-258.6" font-family="Times,serif" font-size="14.00" style="">Разработка плана мероприятий</text>
+</g>
+<!-- identify_gaps&#45;&gt;develop_plan -->
+<g id="edge7" class="edge" data-name="identify_gaps-&gt;develop_plan">
+
+<path fill="none" stroke="black" d="M151.9,-329.44C153.71,-318.75 156.08,-304.72 158.17,-292.37" style=""/>
+<polygon fill="black" stroke="black" points="161.59,-293.16 159.8,-282.71 154.68,-291.99 161.59,-293.16" style=""/>
+</g>
+<!-- coordinate_plan -->
+<g id="node9" class="node" pointer-events="visible" data-name="coordinate_plan">
+
+<path fill="none" stroke="black" d="M287,-208.8C287,-208.8 61,-208.8 61,-208.8 55,-208.8 49,-202.8 49,-196.8 49,-196.8 49,-184.8 49,-184.8 49,-178.8 55,-172.8 61,-172.8 61,-172.8 287,-172.8 287,-172.8 293,-172.8 299,-178.8 299,-184.8 299,-184.8 299,-196.8 299,-196.8 299,-202.8 293,-208.8 287,-208.8" style=""/>
+<text text-anchor="middle" x="174" y="-186.6" font-family="Times,serif" font-size="14.00" style="">Согласование плана с ответственными</text>
+</g>
+<!-- develop_plan&#45;&gt;coordinate_plan -->
+<g id="edge8" class="edge" data-name="develop_plan-&gt;coordinate_plan">
+
+<path fill="none" stroke="black" d="M165.72,-244.5C166.88,-237.12 168.26,-228.32 169.56,-220.05" style=""/>
+<polygon fill="black" stroke="black" points="172.98,-220.82 171.08,-210.4 166.07,-219.73 172.98,-220.82" style=""/>
+</g>
+<!-- prepare_report -->
+<g id="node10" class="node" pointer-events="visible" data-name="prepare_report">
+
+<path fill="none" stroke="black" d="M271.5,-124C271.5,-124 164.5,-124 164.5,-124 158.5,-124 152.5,-118 152.5,-112 152.5,-112 152.5,-100 152.5,-100 152.5,-94 158.5,-88 164.5,-88 164.5,-88 271.5,-88 271.5,-88 277.5,-88 283.5,-94 283.5,-100 283.5,-100 283.5,-112 283.5,-112 283.5,-118 277.5,-124 271.5,-124" style=""/>
+<text text-anchor="middle" x="218" y="-101.8" font-family="Times,serif" font-size="14.00" style="">Подготовка отчета</text>
+</g>
+<!-- coordinate_plan&#45;&gt;prepare_report -->
+<g id="edge9" class="edge" data-name="coordinate_plan-&gt;prepare_report">
+
+<path fill="none" stroke="black" d="M183.12,-172.64C188.98,-161.62 196.72,-147.04 203.42,-134.43" style=""/>
+<polygon fill="black" stroke="black" points="206.43,-136.23 208.03,-125.76 200.25,-132.94 206.43,-136.23" style=""/>
+</g>
+<!-- finish -->
+<g id="node11" class="node" pointer-events="visible" data-name="finish">
+
+<ellipse fill="none" stroke="black" cx="253" cy="-34" rx="59.14" ry="18" style=""/>
+<text text-anchor="middle" x="253" y="-29.8" font-family="Times,serif" font-size="14.00" style="">Завершение</text>
+</g>
+<!-- prepare_report&#45;&gt;finish -->
+<g id="edge10" class="edge" data-name="prepare_report-&gt;finish">
+
+<path fill="none" stroke="black" d="M226.65,-87.7C230.47,-80.07 235.04,-70.92 239.3,-62.4" style=""/>
+<polygon fill="black" stroke="black" points="242.43,-63.97 243.77,-53.46 236.17,-60.84 242.43,-63.97" style=""/>
+</g>
+<!-- finish&#45;&gt;start -->
+<g id="edge11" class="edge" data-name="finish-&gt;start">
+
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M273.35,-51.17C303.37,-77.01 356,-130.73 356,-189.8 356,-580.2 356,-580.2 356,-580.2 356,-638.68 369.48,-661.77 337,-710.4 334.23,-714.55 330.81,-718.3 327.01,-721.67" style=""/>
+<polygon fill="black" stroke="black" points="325.2,-718.65 319.42,-727.53 329.47,-724.19 325.2,-718.65" style=""/>
+</g>
+</g>
+</svg>
